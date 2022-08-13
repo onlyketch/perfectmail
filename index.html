@@ -3,14 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<meta property="og:title" content="Дизайн и верстка Email"/>
+    <meta property="og:title" content="Дизайн и верстка Email"/>
 	<meta property="og:description" content="Заказать верстку email у специалиста"/>
 	<meta property="og:image" content="og.png"/>
 	<meta property="og:type" content="profile"/>
 	<meta property="og:url" content= "perfectmail.ru" />
 	<title>Заказать верстку email-рассылки</title>
 	<link rel="stylesheet" href="css/main.css">
-	
+
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript" >
    	(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -25,7 +25,7 @@
 	</script>
 	<noscript><div><img src="https://mc.yandex.ru/watch/89945834" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
-	
+
 </head>
 <body>
 	
@@ -83,8 +83,12 @@
 				</div>
 				<div class="swiper-pagination"></div>
 			</div>
-			<div class="swiper-button-prev"></div>
-  			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev">
+				<svg viewBox="0 0 8 10" class="data__icon" width="8" style="margin-right: 2px;"><use xlink:href="icons/stack/icons.svg#prev"></use></svg>
+			</div>
+  			<div class="swiper-button-next">
+  				<svg viewBox="0 0 8 10" class="data__icon" width="8" style="margin-left: 2px;"><use xlink:href="icons/stack/icons.svg#next" class="arrow-next"></use></svg>
+  			</div>
 			<a href="#modal" class="btn gold" target="_blank">Узнать стоимость</a>
 		</div>
 
@@ -94,15 +98,15 @@
 				<div class="benefits__line"></div>
 				<div class="benefits__items">
 					<div class="benefits__item">
-						<img src="images/smart.png" alt="Преимущество иконка">
+						<svg viewBox="0 0 60 60" width="60"><use xlink:href="icons/stack/icons.svg#smart"></use></svg>
 						<div class="benefits__desc">Адаптивность на<br>всех смарфонах</div>
 					</div>
 					<div class="benefits__item">
-						<img src="images/outlook.png" alt="Преимущество иконка">
+						<svg viewBox="0 0 60 60" width="60"><use xlink:href="icons/stack/icons.svg#outlook"></use></svg>
 						<div class="benefits__desc">Поддержка старых<br>версий Outlook</div>
 					</div>
 					<div class="benefits__item">
-						<img src="images/gmail.png" alt="Преимущество иконка">
+						<svg viewBox="0 0 60 60" width="60"><use xlink:href="icons/stack/icons.svg#gmail"></use></svg>
 						<div class="benefits__desc">Корректное отображение<br> 
 													во всех современных<br> 
 													почтовиках</div>
@@ -114,7 +118,7 @@
 		<div class="details">
 			<div class="details__container">
 				<a href="#modal" class="btn dark details__btn" target="_blank">Обсудить детали</a>
-				<img src="images/stand.png" alt="Кот" class="details__cat">				
+				<img src="images/stand.png" alt="Кот" class="details__cat" width="150" height="150">				
 			</div>
 
 		</div>
@@ -123,18 +127,30 @@
 	<footer class="footer">
 		<div class="footer__copyright">©perfectmail.ru 2022 </div>
 		<div class="footer__social">
-			<a href="https://t.me/hotalert" target="_blank"><img src="images/tg.png" alt="Telegram"></a>
-			<a href="https://wa.me/79647602729" target="_blank"><img src="images/wts.png" alt="WhatsApp"></a>
-			<a href="https://vk.com/andrey.samoilenko" target="_blank"><img src="images/vk.png" alt="Вконтакте"></a>
+			<a href="https://t.me/hotalert" target="_blank">
+				<svg viewBox="0 0 26 26" width="26"><use xlink:href="icons/stack/icons.svg#tg"></use></svg>
+			</a>
+			<a href="https://wa.me/79647602729" target="_blank">
+				<svg viewBox="0 0 27 26" width="27"><use xlink:href="icons/stack/icons.svg#wts"></use></svg>
+			</a>
+			<a href="https://vk.com/andrey.samoilenko" target="_blank">
+				<svg viewBox="0 0 28 28" width="28"><use xlink:href="icons/stack/icons.svg#vk"></use></svg>
+			</a>
 		</div>
 	</footer>
 
 	<div class="modal mfp-hide" id="modal">
 		<div class="modal__title">Напишите в любой мессенджер</div>
 		<div class="modal__social">
-			<a href="https://t.me/hotalert" target="_blank"><img src="images/tg-big.png" alt="Telegram"></a>
-			<a href="https://wa.me/79647602729" target="_blank"><img src="images/wts-big.png" alt="WhatsApp"></a>
-			<a href="https://vk.com/andrey.samoilenko" target="_blank"><img src="images/vk-big.png" alt="Вконтакте"></a>
+			<a href="https://t.me/hotalert" target="_blank">
+				<svg viewBox="0 0 53 53" width="53"><use xlink:href="icons/stack/icons.svg#tg-big"></use></svg>
+			</a>
+			<a href="https://wa.me/79647602729" target="_blank">
+				<svg viewBox="0 0 55 53" width="55"><use xlink:href="icons/stack/icons.svg#wts-big"></use></svg>
+			</a>
+			<a href="https://vk.com/andrey.samoilenko" target="_blank">
+				<svg viewBox="0 0 57 57" width="57"><use xlink:href="icons/stack/icons.svg#vk-big"></use></svg>
+			</a>
 		</div>
 		<button title="Закрыть" class="mfp-close modal__close">×</button>
 	</div>
