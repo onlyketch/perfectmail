@@ -67,10 +67,13 @@ $(document).ready(function() {
 //# sourceMappingURL=swiper-bundle.min.js.map
 const swiper = new Swiper('.swiper', {
   // Optional parameters
-  slidesPerView: 3,
+  slidesPerView: 2,
   spaceBetween: 10,
   direction: 'horizontal',
   loop: true,
+  noSwiping: true,
+  noSwipingClass: 'swiper-slide',
+  watchSlidesProgress: true,
 
   // If we need pagination
   pagination: {
