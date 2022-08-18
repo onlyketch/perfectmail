@@ -44,12 +44,6 @@ $(document).ready(function() {
 		}
 	});
 
-	$('.btn').magnificPopup({
-  		type:'inline',
-  		midClick: true,
-  		closeBtnInside:true
-	});
-
 });
 /**
  * Swiper 8.3.2
